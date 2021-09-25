@@ -11,10 +11,6 @@ import java.util.regex.Pattern;
             Matcher matcher = pattern.matcher(str);
             while (matcher.find()) {
                 System.out.println("Email option: " + matcher.group());
-                System.out.println("Email option: " + matcher.group());
-                System.out.println("Email option: " + matcher.group());
-                System.out.println("Email option: " + matcher.group());
-                System.out.println("Email option: " + matcher.group());
             }
         }
     }
